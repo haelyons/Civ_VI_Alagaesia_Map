@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="397634e9-274a-401f-95ef-4cf3e040e206" version="1">
+  <Properties>
+    <Name>Alagaesia_New</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1709836216</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>ardamantium</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Configuration/Configuration.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Text/Text.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="NewAction">
+      <File>Text/Text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Configuration/Configuration.sql</File>
+    <File>Maps/uncheckedalagaesia.Civ6Map</File>
+    <File>Maps/uncheckedalagaesia.lua</File>
+    <File>Text/Text.sql</File>
+  </Files>
+</Mod>
